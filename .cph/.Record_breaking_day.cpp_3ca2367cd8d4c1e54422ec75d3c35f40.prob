@@ -1,0 +1,1 @@
+{"name":"Local: Record_breaking_day","url":"c:\\c++\\Record_breaking_day.cpp","tests":[{"id":1620220467957,"input":"8\n1 2 0 7 2 0 2 2","output":""},{"id":1620220652865,"input":"1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Record_breaking_day.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: freq_letter","url":"c:\\c++\\string\\freq_letter.cpp","tests":[{"id":1622371211455,"input":"geeksforgeeks","output":""},{"id":1630217001852,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\string\\freq_letter.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: getline","url":"c:\\c++\\string\\getline.cpp","tests":[{"id":1641562874989,"input":"4\nabc 123","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\string\\getline.cpp","group":"local","local":true}

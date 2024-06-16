@@ -1,0 +1,1 @@
+{"name":"Local: hit3","url":"c:\\c++\\hit3.cpp","tests":[{"id":1698989141632,"input":"4\n6 2\nRPSSPR\n6 3\nSRRRRR\n6 0\nRPSRPS\n6 1\nPSSPPS","output":"4\nPPRRPP\n6\nRPPPPP\n2\nPPPPPP\n4\nRRRSSS"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\hit3.cpp","group":"local","local":true}

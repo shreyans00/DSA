@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"c:\\c++\\Algozenith\\2.Maxm_window.cpp","tests":[{"id":1642014028475,"input":"4\n\n9 3\n\n1 2 3 1 4 5 2 3 6\n\n5 5\n\n1 -4 3 -3 -9\n\n4 1\n\n-3 1 -8 3\n\n5 2\n\n-1 -1 -1 -1 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Algozenith\\2.Maxm_window.cpp","group":"local","local":true}

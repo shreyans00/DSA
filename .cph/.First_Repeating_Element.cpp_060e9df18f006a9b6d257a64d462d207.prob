@@ -1,0 +1,1 @@
+{"name":"Local: First_Repeating_Element","url":"c:\\c++\\First_Repeating_Element.cpp","tests":[{"id":1620223915379,"input":"7\n1 5 3 4 3 5 6","output":""},{"id":1620223994881,"input":"6\n9 3 1 5 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\First_Repeating_Element.cpp","group":"local","local":true}

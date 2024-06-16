@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"c:\\c++\\Algozenith\\Binary Search\\2.cpp","tests":[{"id":1649794685884,"input":"1\n6 4\n1 2 5 3 2 1\n1\n2\n5\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Algozenith\\Binary Search\\2.cpp","group":"local","local":true}

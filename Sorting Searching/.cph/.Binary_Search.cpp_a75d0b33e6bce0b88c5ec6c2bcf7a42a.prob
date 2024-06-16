@@ -1,0 +1,1 @@
+{"name":"Local: Binary_Search","url":"c:\\c++\\Sorting Searching\\Binary_Search.cpp","tests":[{"id":1620209176905,"input":"5\n1\n636\n746\n36\n457\n12","output":""},{"id":1620209326383,"input":"5\n1\n636\n746\n36\n457\n636","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Sorting Searching\\Binary_Search.cpp","group":"local","local":true}

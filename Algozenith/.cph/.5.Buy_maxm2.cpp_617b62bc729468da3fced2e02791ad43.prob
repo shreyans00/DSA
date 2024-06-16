@@ -1,0 +1,1 @@
+{"name":"Local: 5","url":"c:\\c++\\Algozenith\\5.Buy_maxm2.cpp","tests":[{"id":1642059053986,"input":"5 4\n\n1 4 2 9 6\n\n1\n\n5\n\n10\n\n25","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Algozenith\\5.Buy_maxm2.cpp","group":"local","local":true}

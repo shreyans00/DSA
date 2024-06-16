@@ -1,0 +1,49 @@
+STL (Standard Template Library) is a library of generic template classes and functions.
+We use STL to save time and reuse well tested components 
+
+Components of STL:
+1. Containers - object which stores data using template classes
+        a) Sequence Containers - stores data in linear fashion   O->O->O->O    
+                               - vectors,list,dequeue  
+                (i) Vector - Continuous memory allocation(arrays)     Random access - fast,    Insertion/Deletion in middle - slow,   Insertion at the end - fast
+                (ii) List - Linked list     Random access - slow,    Insertion/Deletion in middle - fast,   Insertion at the end - fast
+
+        b) Associative Containers - indexed by consecutive non-negative integers  
+                                  - allow direct access through keys  
+                                  - set,unordered_set,multi-set,map,unordered_map,multi-map 
+                                  - All operations fast except Random access
+
+        c) Derived Containers/ Adapters - implementation of this taken from sequence & associative containers but with better speed real world modelling             stack,queue,priority-queue
+                                        - Element random access by key is O(log n)     
+                                        - Speed Depends
+
+
+2. Algorithms - procedure to process data like sorting,searching,merging,copying using template functions
+3. Iterators - object points to an element in a container, handle just like pointers, connects algorithm with containers
+
+An adapter of dequeue with: push(x), pop(), no random access, no iterators, no curly based initialiser =>  Stacks & Queues
+
+distance(it1-it2)  is O(it2-it1)
+
+auto it=st.begin(); 
+it = st.erase(it);
+cout<<*it<<endl;  //now it points to 2nd element as 1st one is deleted
+Similarly, if you pop the iterator pointing to the end, then can't access the previous iterators 
+
+
+Deque (Double ended queue) 
+- push and pop from the back as well as front : O(1)
+- random access to any element : O(1)
+- insert and delete from front
+- Header file: <deque>
+- supports both max heap & min heap
+- getMax O(1), getMin O(1), deleteMax O(log n), deleteMin O(log n), size O(1), isEmpty O(1)
+
+We can try two heaps (min heap and max heap). We maintain a pointer of every max heap element in min heap. To get minimum element, we simply return root. To get maximum element, we return root of max heap. To insert an element, we insert in min heap and max heap both. The main idea is to maintain one to one correspondence, so that deleteMin() and deleteMax() can be done in O(Log n) time. 
+
+Hash table implementation
+Not sorted, unordered, can't perform binary search
+Average: O(1)   Worst: O(n)
+When size>=no. of buckets(load factor=1), capacity increases(~2x) & all the elements are rehashed
+
+In order to use unordered_set/map, classes must have hash function implemented (compiler implement for int, double, string, but not for pair, so have to create custom hashes for them)

@@ -1,0 +1,79 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define rep(i, s, f) for (i = s; i < f; i++)
+#define print(v)          \
+    for (auto &z : v)     \
+        cout << z << ' '; \
+    cout << '\n'
+#define db cout << "db: "
+#define pb push_back
+#define pii pair<int, int>
+#define F first
+#define S second
+#define B begin()
+#define E end()
+#define all(v) v.B, v.E
+#define sz(v) (int)((v).size())
+#define vi vector<int>
+#define vii vector<pair<int, int>>
+#define boost                         \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(0);                       \
+    cout.tie(0)
+#define clk1 clock_t start_time = clock()
+#define clk2 cout << (clock() - start_time) / (double)CLOCKS_PER_SEC
+#define clean(arr) memset(arr, 0, sizeof(arr))
+#define mod 1000000007
+#define mod2 998244353
+#define space 100005
+//<<fixed << setprecision(9)
+
+int main()
+{
+    ll n, i, j, t;
+    boost;
+
+    cin >> t;
+    while (t--)
+    {
+        cin >> n;
+        ll m = 1 << n;
+        // there are 2^n numbers
+        ll arr[m];
+        rep(i, 0, m)
+                cin >>
+            arr[i];
+        // take input
+        sort(arr, arr + m);
+        // sorting the numbers as per logic.
+
+        map<ll, ll> sums; // stores the possible sums as of now and their frequency
+
+        sums[0] = 1; // 0 can be generated as of now
+
+        vi ans;
+        vector<ll> subsums; // subset sums that can be created
+
+        rep(i, 0, m)
+        {
+            if (sums[arr[i]])
+            {
+                sums[arr[i]]--; // this can be created so skip this once and
+            }
+            else
+            {
+                ans.pb(arr[i]);                              // creates the final array, freq is 0, so needed.
+                vector<ll> temp;                             // new subset sums that can be created.
+                for (auto &z : subsums)                      // with all the previous
+                    temp.pb(z + arr[i]), sums[z + arr[i]]++; // Merging previous subset sums with this elements and increase their generated frequency.
+                for (auto &z : temp)
+                    subsums.pb(z);  // add the newly generated ones to the subset sums that are generated.
+                subsums.pb(arr[i]); // also add this single element set (merging with 0).
+            }
+        }
+        print(ans); // print the final generated numbers.
+    }
+
+    return 0;
+}

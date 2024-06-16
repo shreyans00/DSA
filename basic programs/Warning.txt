@@ -1,0 +1,26 @@
+See the range of no. to use int, long, long long
+if 10^8/9, use long long 
+if 10^6, use long 
+int : 32-bit +/- 1 bit used for sign 31 bits 2 x 10^9
+long long int / long / long long : 64 bits, 1 bit used for sign 63 bits 4 x 10^18   but take longer time to compute
+f
+int a,b;
+long long ans;
+ans += a * b   :  wrong
+ans += 1LL * a * b;
+
+v.size(), s.size()  -> unsigned integer (no sign bit)
+So, v.size()--   : show overflow
+unsigned int x = 0;
+x--    :   x!=-1 but x==2^32-1-1 
+
+Check for the time complexity
+No. of operation per second = 10^7/8
+
+Check all favourable conditions
+
+typeid(var).name()    ->  returns the type of the variable
+
+size of array = sizeof(a)/sizeof(a[0])
+
+sort(a,a+10)  : a+10 pointer not included

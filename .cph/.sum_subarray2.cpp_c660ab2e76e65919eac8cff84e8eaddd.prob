@@ -1,0 +1,1 @@
+{"name":"Local: sum_subarray2","url":"c:\\c++\\sum_subarray2.cpp","tests":[{"id":1620228796637,"input":"5 \n1 2 3 2 5\n12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\sum_subarray2.cpp","group":"local","local":true}

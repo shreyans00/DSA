@@ -1,0 +1,1 @@
+{"name":"Local: printing_subarrays","url":"c:\\c++\\printing_subarrays.cpp","tests":[{"id":1620298723223,"input":"5\n2 5 -6 5 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\printing_subarrays.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Pair_sum","url":"c:\\c++\\Pair_sum.cpp","tests":[{"id":1620371910889,"input":"8\n1 2 3 6 7 9 14 21\n17","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Pair_sum.cpp","group":"local","local":true}

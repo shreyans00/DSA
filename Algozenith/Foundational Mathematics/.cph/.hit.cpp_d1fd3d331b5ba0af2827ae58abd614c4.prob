@@ -1,0 +1,1 @@
+{"name":"Local: hit","url":"c:\\c++\\Algozenith\\Foundational Mathematics\\hit.cpp","tests":[{"id":1644050512205,"input":"2\n(1 + 2 / 1) mod 3\n(2 * 3 - 8) mod 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\Algozenith\\Foundational Mathematics\\hit.cpp","group":"local","local":true}
